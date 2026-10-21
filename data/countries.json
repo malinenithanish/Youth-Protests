@@ -1,0 +1,177 @@
+[
+  {
+    "id": "france",
+    "country": "France",
+    "iso2": "FR",
+    "lat": 48.857,
+    "lng": 2.352,
+    "movement_name": "French high school student protests (2026)",
+    "status": "ongoing",
+    "start_date": "2026-09-21",
+    "last_updated": "2026-10-19",
+    "trigger_categories": ["education", "public_services", "other"],
+    "trigger_summary": "Pupils at a high school in Creteil, a Paris suburb, began a walkout on 21 September 2026, the day after a teachers' strike over unfilled posts. Complaints included teacher shortages, overcrowded classes, long timetables, run-down buildings and stress from the Parcoursup admissions site. The movement spread to Marseille, Lille, Rennes, Strasbourg and Toulouse.",
+    "government_response": "The government met student unions, removed teachers to restore classes and banned gatherings outside closed schools. The prime minister blamed the far left and said intelligence described the movement as organised by La France Insoumise, which calls the mobilisation spontaneous. Interior Minister Laurent Nunez admitted police lost control in some cities, and curfews were imposed.",
+    "outcome_so_far": "Still unfolding. School blockades grew into nationwide marches over living costs, and on 17 October rioting and looting hit city halls and shops. The government said on 6 October that 215 students and 715 police had been injured. Reuters reported on 10 October that 6,877 people had been arrested, mostly minors.",
+    "contested_claims": [
+      {"topic": "Who organised the movement", "account_a": "The government says the movement was organised by La France Insoumise and its allies on the far left. Prime Minister Sebastien Lecornu blamed the 'ultra-left' and criminals, and said some groups wanted to create chaos up until the presidential election.", "account_b": "La France Insoumise says the mobilisation was spontaneous. Its coordinator Manuel Bompard said the government was sinking into conspiracism, and Jean-Luc Melenchon said his party backs non-violent protest and called on the prime minister to prove his accusation.", "sources": ["Reuters", "BBC News", "The National"]},
+      {"topic": "Whether the police response was proportionate", "account_a": "Amnesty International said in October 2026 that the authorities should put an end to the disproportionate police repression seen in recent days, and said the images and testimonies raised alarming concerns about the use of tear gas, batons and policing techniques.", "account_b": "Interior Minister Laurent Nunez said about 200 students had been injured and that it was very rarely the result of police action. A police union representative said serious injuries were tragedies but that the problem was the intensity of the violence committed by some young people.", "sources": ["Kuwait Times", "Reuters", "France 24"]},
+      {"topic": "How many police watchdog investigations were opened", "account_a": "Reuters and France 24 reported on 10 October 2026 that the IGPN police watchdog was investigating 24 cases tied to the policing of the protests.", "account_b": "Reuters reported on 17 October 2026 that the police watchdog was investigating at least two dozen allegations of police violence. An earlier figure of 18 investigations circulated in secondary coverage and could not be confirmed in a mainstream source.", "sources": ["Reuters", "France 24"]},
+      {"topic": "Number of arrests and injuries", "account_a": "Reuters reported on 10 October 2026 that police had arrested 6,877 people, mostly minors, and that about 700 police officers had been injured. The prime minister's office said on 6 October that more than 5,000 people had been arrested, 87 percent of them minors.", "account_b": "Officials said on 19 October 2026 that more than 2,500 people had been arrested during and after the weekend of 17 to 18 October, and that about 1,000 police officers were injured. The government figure of 215 students injured was current as of 6 October.", "sources": ["Reuters", "France 24", "BBC News"]}
+    ],
+    "sources": [
+      {"title": "Mass protests in France spiral into worst riots in years", "publisher": "Reuters", "url": "https://www.reuters.com/5f374b32b07b/world/students-trade-unions-yellow-vests-set-protest-across-france-2026-10-17/", "type": "news", "accessed": "2026-10-19"},
+      {"title": "French policing under scrutiny as student protest injuries mount", "publisher": "Reuters", "url": "https://www.reuters.com/3fec1b0a85a0/world/french-policing-under-scrutiny-student-protest-injuries-mount-2026-10-10/", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Curfew imposed in parts of central Paris and other cities after rioting across France", "publisher": "BBC News", "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Severe injuries at French student protests draw scrutiny to police tactics", "publisher": "France 24", "url": "https://www.france24.com/en/france/20261010-injuries-french-student-protests-draw-scrutiny-to-police-tactics", "type": "news", "accessed": "2026-10-19"},
+      {"title": "No future: Thousands mass in France for high school protests", "publisher": "Kuwait Times", "url": "https://kuwaittimes.com/article/51068/top-stories/no-future-thousands-mass-in-france-for-high-school-protests/", "type": "news", "accessed": "2026-10-19"},
+      {"title": "French students clash with police as school protests spread nationwide", "publisher": "Euronews", "url": "https://euronews.com/video/2026/10/02/french-students-clash-with-police-as-school-protests-spread-nationwide", "type": "news", "accessed": "2026-10-19"},
+      {"title": "France's angry youth are demanding a future, not just better schools", "publisher": "The National", "url": "https://www.thenationalnews.com/opinion/comment/2026/10/13/france-student-protests-emmanuel-macron-marine-le-pen/", "type": "opinion", "accessed": "2026-10-19"}
+    ],
+    "verification": "checked",
+    "published": true
+  },
+  {
+    "id": "india",
+    "country": "India",
+    "iso2": "IN",
+    "lat": 28.614,
+    "lng": 77.209,
+    "movement_name": "Cockroach Janta Party movement (2026)",
+    "status": "ongoing",
+    "start_date": "2026-05",
+    "last_updated": "2026-10-14",
+    "trigger_categories": ["education", "electoral", "corruption", "public_services"],
+    "trigger_summary": "Leaks of the NEET medical entrance exam and other exam irregularities grew into a nationwide student movement in May 2026. An online satirical collective, the Cockroach Janta Party, formed after the chief justice reportedly compared some unemployed young people to cockroaches. Demands included exam accountability, education reform and the education minister's resignation.",
+    "government_response": "Police dispersed the July march on Parliament with tear gas and batons, and Delhi Police said the protest was handled professionally while denying violence or detentions at Jantar Mantar. Ministers met movement representatives and accepted a petition. The prime minister announced fast-track courts for exam leaks. In October police barred access to Jantar Mantar and detained leaders.",
+    "outcome_so_far": "The education minister left office in July, which movement leaders described as a win, and a five-week protest ended. The movement returned with a new demand for the chief election commissioner's resignation over a revision that removed at least 130 million names from voter rolls. Delhi Police said about 180 people were injured on 20 July.",
+    "contested_claims": [
+      {"topic": "When the movement started", "account_a": "Al Jazeera and the BBC describe the Cockroach Janta Party forming in May 2026, after the chief justice's remarks about unemployed young people, followed by demonstrations in June. Wikipedia and other summaries place a large protest on 6 June 2026.", "account_b": "Khaleej Times reports that the sit-in at Jantar Mantar began on 20 June 2026 and that the party had organised it as demands for the education minister's resignation. The exact first demonstration day needs verification.", "sources": ["Al Jazeera", "BBC News", "Khaleej Times"]},
+      {"topic": "Whether force was used on 20 July 2026", "account_a": "AP and Reuters witnesses described cane charges and tear gas being used as protesters tried to reach Parliament. Khaleej Times reports that 60 protesters and 118 security personnel were injured, and the Associated Press reported nearly 180 people were hurt in all.", "account_b": "Delhi Police denied that any violence or detentions took place at Jantar Mantar, and said the protest was being handled professionally. The police had issued a public advisory saying no permission had been granted for the march.", "sources": ["Associated Press", "Khaleej Times"]},
+      {"topic": "Why the voter rolls were revised", "account_a": "The movement and opposition parties allege that the removal of at least 130 million names from the electoral rolls favours the ruling party, and that eligible voters were wrongly removed. India is due to hold state elections.", "account_b": "The Election Commission says the revision is a routine exercise to remove dead, duplicate or ineligible voters. The ruling Bharatiya Janata Party denies wrongdoing, and campaigners say the sheer number of removals is what makes the exercise disputed.", "sources": ["BBC News", "Deutsche Welle"]}
+    ],
+    "sources": [
+      {"title": "India's youth-led Cockroach movement vows to continue protest after police crackdown", "publisher": "Associated Press", "url": "https://www.gpb.org/news/2026/07/21/indias-youth-led-cockroach-movement-vows-continue-protest-after-police-crackdown", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Delhi sees more protests as freed cockroach group's leaders vow to continue fight", "publisher": "BBC News", "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o", "type": "news", "accessed": "2026-10-19"},
+      {"title": "India news: Cockroach leaders sent to judicial custody amid protest crackdown", "publisher": "Deutsche Welle", "url": "https://www.dw.com/en/india-news-cockroach-leaders-sent-to-judicial-custody-amid-protest-crackdown/live-79656344", "type": "news", "accessed": "2026-10-19"},
+      {"title": "India's Cockroach Party-led protest march to Parliament: What we know so far", "publisher": "Khaleej Times", "url": "https://www.khaleejtimes.com/world/asia/india-cockroach-party-protest-parliament-march-tear-gas-lathi-charge-minister-reaction", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Photos: Police fire tear gas at India's Cockroach movement supporters", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/gallery/2026/7/20/photos-police-fire-tear-gas-at-indias-cockroach-movement-supporters", "type": "news", "accessed": "2026-10-19"}
+    ],
+    "verification": "checked",
+    "published": true
+  },
+  {
+    "id": "nepal",
+    "country": "Nepal",
+    "iso2": "NP",
+    "lat": 27.717,
+    "lng": 85.324,
+    "movement_name": "Nepal Gen Z protests (2025)",
+    "status": "concluded",
+    "start_date": "2025-09",
+    "last_updated": "2026-06-02",
+    "trigger_categories": ["censorship", "corruption", "public_services", "other"],
+    "trigger_summary": "Young people in Nepal protested after the government banned 26 social media platforms that had not met registration rules. The demonstrations quickly widened to corruption, nepotism, lack of jobs and poverty. Protesters used TikTok, Instagram, X and Discord to organise, and some used Discord to suggest a name for an interim leader. The exact first day needs verification.",
+    "government_response": "The government announced the social media ban and later dissolved parliament. President Ramchandra Paudel appointed former Chief Justice Sushila Karki as interim prime minister. Security forces clashed with crowds that broke into the parliament and Supreme Court buildings, which were reported as set on fire. A panel later investigated the violence and recommended prosecution of those responsible.",
+    "outcome_so_far": "A snap election on 5 March 2026 gave the Rastriya Swatantra Party 182 of 275 seats, and Balendra Shah was sworn in as prime minister on 27 March 2026. Reuters reported 76 people were killed in the 2025 protests. The new government faces pressure to deliver services and to act on the panel's recommendations.",
+    "contested_claims": [
+      {"topic": "How the interim government was chosen", "account_a": "AFP reported that an interim prime minister was appointed after a vote on Discord, and Harbingers' Magazine reported a change of government on 12 September chosen by Gen Z via the Discord app.", "account_b": "The UK House of Commons Library reported that President Ramchandra Paudel installed an interim prime minister and dissolved parliament on 13 September 2025, with early elections as a key demand of the protest movement.", "sources": ["AFP", "Harbingers' Magazine", "UK House of Commons Library"]},
+      {"topic": "How many people died in the 2025 protests", "account_a": "Reuters reported that 76 people were killed in the anti-corruption protests in September 2025, and reported economic damage and a panel set up to investigate the deaths.", "account_b": "The UK House of Commons Library reported that more than 75 people were killed and over 2,000 were injured, with economic damage estimated at over 586 million US dollars.", "sources": ["Reuters", "UK House of Commons Library"]}
+    ],
+    "sources": [
+      {"title": "Ex-rapper Balendra Shah sworn in as Nepal prime minister after sweeping election win", "publisher": "Reuters", "url": "https://citizen.digital/article/ex-rapper-balendra-shah-sworn-in-as-nepal-prime-minister-after-sweeping-election-win-n379783", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Nepal: 2026 legislative election and future prospects", "publisher": "UK House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10622/", "type": "academic", "accessed": "2026-10-19"},
+      {"title": "Gen Z protesters around the world lead wave of generational discontent", "publisher": "Associated Press", "url": "https://pbs.org/newshour/world/gen-z-protesters-around-the-world-lead-wave-of-generational-discontent", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Gen Z, a youth rebellion across the globe", "publisher": "AFP", "url": "https://citizen.digital/article/gen-z-a-youth-rebellion-across-the-globe-n373601", "type": "news", "accessed": "2026-10-19"},
+      {"title": "The power of the young: How Gen Z is reshaping protest politics", "publisher": "Harbingers' Magazine", "url": "https://www.harbingersmagazine.com/articles/the-power-of-the-young-how-gen-z-is-reshaping-protest-politics-by-sofiia-didenko/", "type": "opinion", "accessed": "2026-10-19"}
+    ],
+    "verification": "checked",
+    "published": true
+  },
+  {
+    "id": "madagascar",
+    "country": "Madagascar",
+    "iso2": "MG",
+    "lat": -18.879,
+    "lng": 47.508,
+    "movement_name": "Gen Z Madagascar (2025)",
+    "status": "concluded",
+    "start_date": "2025-09-25",
+    "last_updated": "2026-10-12",
+    "trigger_categories": ["public_services", "corruption", "other"],
+    "trigger_summary": "Young people in Antananarivo first rallied on 25 September 2025 over persistent water and electricity cuts. The movement, coordinated online as Gen Z Madagascar, grew into demands for the president's resignation, citing corruption, unemployment and the cost of living. Movement members said Nepal's protests showed them it was possible to bring a government down.",
+    "government_response": "President Rajoelina dismissed his government and appointed an army general as prime minister, then met supporters at the palace and promised to resign within a year if power cuts continued. Officers fired rubber bullets and tear gas, and charged protesters with armoured vehicles. On 11 October 2025 soldiers from the Capsat unit joined the demonstrations and the military took power.",
+    "outcome_so_far": "Rajoelina left the country on 12 October 2025 and the military installed Colonel Michael Randrianirina as president, pledging elections within two years. The UN said at least 22 people were killed. A year on, RFI reports little evidence of the promised refoundation, activists say their basic demands are unmet, and a new constitution is due to go to a referendum.",
+    "contested_claims": [
+      {"topic": "How many people were killed", "account_a": "The United Nations said at least 22 people were killed and more than 100 injured in the clashes with security forces, according to the BBC and AFP.", "account_b": "The authorities disputed the UN's figures, according to the BBC. The government also rejected a separate official tally of the dead as unverified and based on rumours, according to AFP.", "sources": ["BBC News", "AFP"]},
+      {"topic": "When the government fell and how the movement ended", "account_a": "BBC reported on 9 October 2025 that the president sacked his entire government and named an army general as prime minister on the previous Monday, which places the reshuffle in late September 2025. The Rajoelina government resigned before the protests ended.", "account_b": "AFP, writing about the anniversary in September 2026, describes soldiers from the Capsat military unit joining the demonstrations in October 2025. Earlier summary material for this entry dated the dissolution to October 2025.", "sources": ["BBC News", "AFP", "RFI"]},
+      {"topic": "Whether the movement backed the new military government", "account_a": "AFP reported that young protesters were euphoric when Capsat soldiers joined them, and one movement figure described the military's support as a turning point in the uprising.", "account_b": "The same AFP report says activists now feel betrayed by the new government, and that one leader warned official commemorations of the anniversary were pointless if the same tactics were used again.", "sources": ["AFP"]}
+    ],
+    "sources": [
+      {"title": "Madagascar Gen Z protests: Police fire rubber bullets as demonstrations reject president Rajoelina's offer", "publisher": "BBC News", "url": "https://www.bbc.co.uk/news/articles/c07v33mg9m2o", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Madagascar's Gen Z betrayed after ushering in new rule", "publisher": "AFP", "url": "https://www.france24.com/en/live-news/20260924-madagascar-s-gen-z-betrayed-after-ushering-in-new-rule", "type": "news", "accessed": "2026-10-19"},
+      {"title": "A year after Madagascar's Gen Z protests and Rajoelina's ouster, little promised change", "publisher": "RFI", "url": "https://www.rfi.fr/en/africa/20261012-a-year-after-madagascar-s-gen-z-protests-and-rajoelina-s-ouster-little-promised-change", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Gen Z, a youth rebellion across the globe", "publisher": "AFP", "url": "https://citizen.digital/article/gen-z-a-youth-rebellion-across-the-globe-n373601", "type": "news", "accessed": "2026-10-19"}
+    ],
+    "verification": "checked",
+    "published": true
+  },
+  {
+    "id": "kenya",
+    "country": "Kenya",
+    "iso2": "KE",
+    "lat": -1.286,
+    "lng": 36.817,
+    "movement_name": "Kenya Gen Z anti-tax protests (2024)",
+    "status": "concluded",
+    "start_date": "2024-06-18",
+    "last_updated": "2026-09-29",
+    "trigger_categories": ["taxes", "corruption", "public_services"],
+    "trigger_summary": "Anger on TikTok over the 2024 Finance Bill became a nationwide youth movement against new taxes, including a proposed 16 percent VAT on bread and taxes on cooking oil, mobile money transfers and motor vehicles. The protests began on 18 June 2024 and were organised online with hashtags such as RejectFinanceBill2024 and OccupyParliament.",
+    "government_response": "Police used tear gas, water cannon and live ammunition, and more than 200 protesters were arrested outside parliament. President Ruto removed the most contentious tax hikes, then withdrew the bill on 26 June 2024 and promised dialogue with young people. On 11 July 2024 he dismissed his cabinet. Interior Minister Murkomen said in 2026 the government mismanaged the protests.",
+    "outcome_so_far": "The Finance Bill was withdrawn and the government restructured, but most tax measures went ahead. Protesters returned in June and July 2025 after a death in police custody. The Kenya National Commission on Human Rights documented 60 deaths and 601 injuries between 18 June and 15 July 2024, and rights groups say more than 100 died in total.",
+    "contested_claims": [
+      {"topic": "How many people died in the 2024 protests", "account_a": "The Kenya National Commission on Human Rights documented 60 deaths and 601 injuries linked to the protests between 18 June and 15 July 2024, and the Independent Policing Oversight Authority registered 60 killings.", "account_b": "The Armed Conflict Location & Event Data project recorded 96 political violence events and 82 reported fatalities between 1 June and 12 July 2024. Rights groups say more than 100 people died across the 2024 and 2025 waves combined, a figure the government has not confirmed.", "sources": ["NTV Kenya", "Human Rights Watch", "BBC News"]},
+      {"topic": "Whether the protests stayed peaceful", "account_a": "BBC reported in June 2024 that unlike earlier political protests, this one was not characterised by looting, destruction of property or stone-throwing, and that it was organised without political parties.", "account_b": "Interior Minister Murkomen said in September 2026 that political actors and criminal elements later exploited the demonstrations, including the attack on Parliament, and that burning Parliament was not the intent of the young protesters.", "sources": ["BBC News", "NTV Kenya"]},
+      {"topic": "Whether the government used online tools against protesters", "account_a": "Amnesty International reported in November 2025 that Kenyan authorities paid a network of trolls to threaten and intimidate young protesters, and that surveillance and disinformation were used to target organisers of the 2024 and 2025 protests.", "account_b": "Interior Minister Murkomen said the government does not sanction harassment or violence against any citizen, and that any officer implicated in unlawful conduct bears individual responsibility and is subject to investigation and sanction.", "sources": ["BBC News"]}
+    ],
+    "sources": [
+      {"title": "Kenya Finance Bill: Gen Z anti-tax revolutionaries, the new faces of protest", "publisher": "BBC News", "url": "https://www.bbc.com/news/articles/c2jj5mee1pmo", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Kenyan government scraps elements of controversial tax bill amid protests", "publisher": "CNN", "url": "https://www.cnn.com/2024/06/18/africa/kenya-rethinks-tax-bill-protests-intl-latam", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Murkomen: How government misread the Gen Z revolt", "publisher": "NTV Kenya", "url": "https://ntvkenya.co.ke/news/murkomen-how-government-misread-the-gen-z-revolt", "type": "news", "accessed": "2026-10-19"},
+      {"title": "World Report 2026: Kenya", "publisher": "Human Rights Watch", "url": "https://www.hrw.org/world-report/2026/country-chapters/kenya", "type": "academic", "accessed": "2026-10-19"},
+      {"title": "Gen Z protests: Kenya authorities paid trolls to threaten activists, Amnesty says", "publisher": "BBC News", "url": "https://www.bbc.co.uk/news/articles/c3vngv60l0qo", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Gen Z, a youth rebellion across the globe", "publisher": "AFP", "url": "https://citizen.digital/article/gen-z-a-youth-rebellion-across-the-globe-n373601", "type": "news", "accessed": "2026-10-19"},
+      {"title": "The power of the young: How Gen Z is reshaping protest politics", "publisher": "Harbingers' Magazine", "url": "https://www.harbingersmagazine.com/articles/the-power-of-the-young-how-gen-z-is-reshaping-protest-politics-by-sofiia-didenko/", "type": "opinion", "accessed": "2026-10-19"}
+    ],
+    "verification": "checked",
+    "published": true
+  },
+  {
+    "id": "brazil",
+    "country": "Brazil",
+    "iso2": "BR",
+    "lat": -15.793,
+    "lng": -47.883,
+    "movement_name": "Brazilian student mobilisation over the 2026 election",
+    "status": "ongoing",
+    "start_date": "2026-10-05",
+    "last_updated": "2026-10-08",
+    "trigger_categories": ["electoral", "education", "other"],
+    "trigger_summary": "After the first round of the 2026 presidential election on 4 October, student groups organised marches on campuses. A march in Rio de Janeiro on 7 October supported one candidate and opposed another, with themes of public education, the 6x1 working week, social rights and democracy. Brasil de Fato reported the protests reached over 40 universities in 14 states.",
+    "government_response": "Federal District civil police said in August 2026 that they had opened a criminal investigation into two Telegram groups said to have discussed attacks on government buildings in Brasilia during the election period, and that eight search warrants were issued. Student groups reported threats, and the national student union said it was documenting them and asking the authorities for security.",
+    "outcome_so_far": "The mobilisation was still running in the week before the 25 October runoff, with further marches announced. Brasil de Fato reported that in Belo Horizonte audio messages in groups linked to bolsonarista accounts announced physical attacks against participants, and that students in Pernambuco reported anonymous threats and a campus fire. No mainstream source I read confirmed those threats.",
+    "contested_claims": [
+      {"topic": "What the student marches were for", "account_a": "Agencia Brasil reported that students in Rio de Janeiro marched on 7 October to defend one candidate's candidacy, citing public education, the end of the 6x1 working week, social rights and democracy. Student groups said the demonstrations were meant to bring voters back to the polls.", "account_b": "Le Monde with AFP reported the same march as a protest against the candidate who led the first round, with students declaring Never Again Bolsonaro and calling for votes for the other candidate. Both accounts describe an openly partisan, election-linked mobilisation.", "sources": ["Agencia Brasil", "Le Monde"]},
+      {"topic": "Whether an attack was planned and how it should be described", "account_a": "Valor Internacional reported in August 2026 that Federal District civil police uncovered an alleged extremist network on Telegram, with suspects aged 19 to 31, that discussed attacks in Brasilia during the election period and shared floor plans of the presidential palace.", "account_b": "The same report describes this as an allegation, and no source I read reported that an attack took place or that any student group was linked to the investigation. Earlier notes for this entry described a Rio de Janeiro police investigation with three arrests, which needs verification and did not match the reporting I found.", "sources": ["Valor Internacional"]}
+    ],
+    "sources": [
+      {"title": "Thousands march ahead of Brazil election runoff: Never Again Bolsonaro", "publisher": "Le Monde", "url": "https://www.lemonde.fr/en/international/article/2026/10/07/thousands-march-ahead-of-brazil-election-runoff-never-again-bolsonaro_6758365_4.html", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Estudantes fazem ato no Rio de Janeiro em defesa de voto em Lula", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/estudantes-fazem-ato-no-rio-de-janeiro-em-defesa-de-voto-em-lula", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Brazil probes alleged extremist plot ahead of election", "publisher": "Valor Internacional", "url": "https://valorinternational.globo.com/politics/news/2026/08/05/brazil-probes-alleged-extremist-plot-ahead-of-election.ghtml", "type": "news", "accessed": "2026-10-19"},
+      {"title": "Estudantes vão às ruas, puxam onda de revoltas contra Flávio Bolsonaro e ampliam atos pró-Lula", "publisher": "Brasil de Fato", "url": "https://www.brasildefato.com.br/2026/10/08/estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula", "type": "news", "accessed": "2026-10-19"}
+    ],
+    "verification": "checked",
+    "published": true
+  }
+]

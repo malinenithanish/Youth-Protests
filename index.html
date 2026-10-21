@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Youth Protests</title>
+<meta name="description" content="Why young people rose up in countries from Kenya to Nepal to France, and what changed afterward. A student research project.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <p class="site-name"><a href="index.html">Youth Protests</a></p>
+  <nav class="site-nav" aria-label="Main">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="compare.html">Compare two countries</a></li>
+      <li><a href="#about">About and method</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="intro" aria-labelledby="intro-heading">
+    <h1 id="intro-heading">Youth Protests</h1>
+    <p class="lede">Since 2024, young people in countries from Kenya to Nepal to France have organized large protests, often starting online, over taxes, corruption, exam scandals, and failing public services. This site compares what set each one off and what changed afterward.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="map-heading">
+    <h2 id="map-heading">Where the movements happened</h2>
+    <p class="note">One marker for each country below. Select a marker to open a short summary with a link to the full card. The map and the list below carry the same information.</p>
+    <div id="map" class="map" role="region" aria-label="Map of protest movements" tabindex="0"></div>
+    <p id="map-status" class="status-line" role="status"></p>
+    <h3 id="country-list-heading">Countries on this map</h3>
+    <ul id="country-list" class="country-list" aria-labelledby="country-list-heading"></ul>
+  </section>
+
+  <section class="panel" aria-labelledby="filters-heading">
+    <h2 id="filters-heading">Filter the cards</h2>
+    <form id="filters" class="filters" aria-labelledby="filters-heading">
+      <p class="field">
+        <label for="filter-category">Trigger</label>
+        <select id="filter-category" name="category">
+          <option value="">All triggers</option>
+        </select>
+      </p>
+      <p class="field">
+        <label for="filter-status">Status</label>
+        <select id="filter-status" name="status">
+          <option value="">All statuses</option>
+          <option value="ongoing">Ongoing</option>
+          <option value="concluded">Concluded</option>
+          <option value="unclear">Unclear</option>
+        </select>
+      </p>
+      <p class="field">
+        <label for="filter-search">Search</label>
+        <input id="filter-search" name="search" type="search" placeholder="country or movement" autocomplete="off">
+      </p>
+      <p class="field field-button">
+        <button type="button" id="filter-reset">Reset filters</button>
+      </p>
+    </form>
+  </section>
+
+  <section class="panel" aria-labelledby="cards-heading">
+    <h2 id="cards-heading">Country cards</h2>
+    <p id="card-count" class="status-line" role="status"></p>
+    <ul id="cards" class="card-grid"></ul>
+    <p id="cards-empty" class="note" hidden>No country matches these filters. Try resetting them.</p>
+  </section>
+
+  <section class="panel" id="symbols" aria-labelledby="symbols-heading">
+    <h2 id="symbols-heading">Symbols and how it spreads</h2>
+    <p>Young people in these movements have borrowed images from popular culture and used social media to organise. AFP reported that its journalists spotted the emblem of a skull and crossbones in a straw hat, taken from the Japanese manga series One Piece, at protests in more than a dozen countries, including Nepal, Madagascar, Indonesia, the Philippines and Morocco. The Associated Press reported the same symbol being flown in Peru, and that in Nepal protesters hung it on the gates of the government seat and on ministries, many of which were torched during the protests.</p>
+    <p>In India, the movement that formed around the Cockroach Janta Party took its name from a remark by the chief justice, who reportedly compared some unemployed young people to cockroaches. The BBC reported that the chief justice later said his comments had been misinterpreted, and that the party's founder wrote on X in May: "What if all cockroaches come together?" Al Jazeera reported that supporters embraced the remark and turned it into a satirical movement that attracted millions of followers on social media.</p>
+    <p>Organisers describe the same pattern in each country. AFP noted that the movements used platforms such as Discord, Instagram and TikTok to mobilise in real time. The Associated Press reported that in Nepal, protesters used TikTok, Instagram and X to spotlight the lavish lifestyles of politicians' children, and then used Discord to suggest who to nominate as interim leader. The BBC reported that in Kenya, video explainers about the tax bill were shared across WhatsApp, Facebook, Instagram and X, and that organisers sent mass text messages to members of parliament.</p>
+    <figure class="figure">
+      <svg class="figure-svg" viewBox="0 0 320 120" role="img" aria-labelledby="spread-figure-title spread-figure-desc" xmlns="http://www.w3.org/2000/svg">
+        <title id="spread-figure-title">How these movements spread</title>
+        <desc id="spread-figure-desc">A simple diagram. On the left, three small rounded boxes labelled with names of social platforms. Lines run from them to a circle in the middle labelled organise. Lines run from that circle to a group of dots on the right, labelled street. The diagram is an original drawing made for this site.</desc>
+        <g fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="8" y="14" width="76" height="22" rx="6" />
+          <rect x="8" y="46" width="76" height="22" rx="6" />
+          <rect x="8" y="78" width="76" height="22" rx="6" />
+          <circle cx="164" cy="57" r="26" />
+          <path d="M96 25 L138 50" />
+          <path d="M84 57 L138 57" />
+          <path d="M96 89 L138 64" />
+          <path d="M190 50 L226 24" />
+          <path d="M190 57 L230 57" />
+          <path d="M190 64 L226 90" />
+        </g>
+        <g fill="currentColor" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">
+          <text x="46" y="29">TikTok, Instagram</text>
+          <text x="46" y="61">X, WhatsApp, Discord</text>
+          <text x="46" y="93">group chats</text>
+          <text x="164" y="61">organise</text>
+        </g>
+        <g fill="currentColor">
+          <circle cx="248" cy="20" r="6" />
+          <circle cx="278" cy="40" r="6" />
+          <circle cx="246" cy="52" r="6" />
+          <circle cx="284" cy="70" r="6" />
+          <circle cx="254" cy="84" r="6" />
+          <circle cx="300" cy="18" r="6" />
+          <circle cx="240" cy="34" r="6" />
+        </g>
+        <text x="268" y="108" fill="currentColor" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">street</text>
+      </svg>
+      <figcaption>An original drawing made for this site. It is a simplified sketch of a pattern the sources describe, not a chart with measured data.</figcaption>
+    </figure>
+    <p>This site uses text and simple original drawings only. The straw hat skull flag and the cockroach image belong to the people who made them, so they are described here in words rather than reproduced.</p>
+  </section>
+
+  <section class="panel" id="about" aria-labelledby="about-heading">
+    <h2 id="about-heading">About and method</h2>
+    <h3>Source policy</h3>
+    <p>Every fact on this site comes from a source that is listed with a link. News reports, wire services, academic briefings and clearly labelled opinion pieces are used, and the publisher and the date we read the page are recorded in the sources list for each country. Where two sources disagree, both accounts are shown side by side in a contested claims section rather than one being chosen. Where a fact could not be confirmed, the site says so.</p>
+    <h3>This is a student project</h3>
+    <p>Youth Protests is a school project, not a news outlet. It does not do original reporting and it does not have an editorial desk. The people who built it are students. It aims to be accurate, plain and neutral, and to make disagreements between sources visible instead of hiding them.</p>
+    <h3>About the people</h3>
+    <p>Individual protesters and victims are not named, and there is no graphic detail. Officials, institutions and organisations are named where naming them is necessary to understand what happened.</p>
+    <h3>How to report an error</h3>
+    <p>If something here is wrong, out of date or missing, please tell us. Open the repository for this site on GitHub and open an issue, or send a pull request with the change. Include the URL of the country page and the source you think should be used instead. Corrections are made in the data file, not by hand, so every page updates at once.</p>
+    <p class="note">Data last reviewed on 19 October 2026. The full source list is in SOURCES.md in the repository, and the data rules are in data/schema.md.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Youth Protests. A student research project. Sources are listed on every country card and in SOURCES.md.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+<script src="js/data.js" defer></script>
+<script src="js/map.js" defer></script>
+<script src="js/cards.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+/* Youth Protests: the printable one page country brief.
+   Used for model United Nations preparation. Black text on white, one
+   US Letter page, and the full address of every source after its link. */
+
+@page {
+  size: letter;
+  margin: 9mm 10mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 8.4pt;
+    line-height: 1.24;
+  }
+
+  .skip-link,
+  .site-header,
+  .site-nav,
+  .site-footer,
+  .brief-actions,
+  #compare-status,
+  .map {
+    display: none !important;
+  }
+
+  main { padding: 0; }
+
+  .brief { max-width: none; }
+
+  /* The whole brief runs in two columns so it fits on one sheet of paper.
+     The title sits above both columns. */
+  #brief {
+    column-count: 2;
+    column-gap: 14pt;
+    column-fill: balance;
+  }
+  #brief .brief-header,
+  #brief .brief-actions {
+    column-span: all;
+  }
+
+  .brief-header {
+    border-bottom: 1.5pt solid #000000;
+    padding-bottom: 3pt;
+    margin-bottom: 6pt;
+  }
+
+  .brief h1 { font-size: 14pt; margin: 0 0 1pt; }
+  .brief h2 {
+    font-size: 9pt;
+    margin: 5pt 0 1pt;
+    border-bottom: 0.5pt solid #000000;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .brief p, .brief li { font-size: 8.4pt; margin-bottom: 3pt; max-width: none; }
+  .brief ul { padding-left: 12pt; margin: 0 0 3pt; }
+  .brief section { break-inside: auto; page-break-inside: auto; }
+  .brief .note { color: #000000; font-size: 7.6pt; margin-bottom: 3pt; }
+  .brief .source-list { font-size: 7.4pt; }
+  .brief .source-list li { margin-bottom: 1.5pt; }
+  .brief .claim { break-inside: avoid; page-break-inside: avoid; margin-bottom: 4pt; }
+  .brief .claim h4 { font-size: 8.4pt; margin: 0 0 1pt; }
+  .brief .claim p { font-size: 8pt; margin-bottom: 2pt; }
+  .brief .tags { margin: 1pt 0 2pt; }
+  .brief .tags li {
+    background: #ffffff !important;
+    border: 0.5pt solid #000000;
+    color: #000000;
+    font-size: 7.4pt;
+  }
+
+  /* The two accounts sit next to each other so the disagreement is visible
+     on a single printed page. */
+  .brief .claim {
+    display: block;
+    border-left: 1.5pt solid #000000;
+    padding-left: 5pt;
+  }
+
+  /* Long sections run in two columns to save vertical room. */
+  #brief-sources-body .source-list {
+    column-count: 1;
+  }
+  #brief-sources-body .source-list li { break-inside: avoid; page-break-inside: avoid; }
+
+  a {
+    color: #000000 !important;
+    text-decoration: underline;
+  }
+
+  /* Print the address of every link so a paper copy still works. */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 6.6pt;
+    word-break: break-all;
+  }
+
+  thead { display: table-header-group; }
+  tr, .card, .compare-table td, .compare-table th {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
